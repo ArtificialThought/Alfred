@@ -1,0 +1,12 @@
+[package]
+name = "DiscordRsBot"
+version = "0.1.0"
+authors = ["TBK <tbk@jjtc.eu>"]
+source = "git+https://github.com/DiscordRsBot/Bot.git"
+
+[dependencies]
+discord = { git = "https://github.com/SpaceManiac/discord-rs.git" }
+
+[profile.release]
+opt-level = 3
+debug = true
